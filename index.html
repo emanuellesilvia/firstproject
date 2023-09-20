@@ -8,32 +8,98 @@
 </head>
 
 <body>
-    <h1>Nome da Matéria</h1>
+    <h1 id="inicio">Primeiros Passos com HTML</h1>
     <hr />
     <header>
-        <h2>
-            Índice
-        </h2>
-        <nav>
-            <ul>
-                <li><a href="#">Ponto 1</a></li>
-                <li><a href="#">Ponto 2</a></li>
-                <li><a href="#">Ponto 3</a></li>
-            </ul>
-        </nav>
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#topic1"><strong>O que é HTML?</strong></a></li>
+            <li><a href="#topic2"><strong>História do HTM</strong>L</a></li>
+            <li><a href="#topic3"><strong>Comunicação Client x Server</strong></a></li>
+            <li><a href="#topic4"><strong>Introdução ao HTML</strong></a></li>
+            <li><a href="#topic5"><strong>Principais Tags</strong></a></li>
+        </ul>
     </header>
-    <h2>Ponto 1</h2>
-    <small> <a href="#inicio">Voltar</a></small>
-    <p>Texto</p>
+    <h2 id="topic1">O que é HTML?</h2>
+    <p>O <abbr title="HyperText Markup Language"><mark>HTML</mark></abbr>(<i>HyperText Markup Language</i>)é a linguagem de marcação usada para criar páginas da web. Ele é usado para estruturar o conteúdo de uma página, definindo elementos e tags que indicam como o conteúdo deve ser exibido. De modo mais simples, podemos dizer que o <abbr title="HyperText Markup Language"> <mark>HTML</mark></abbr> consiste no esqueleto de uma página web, utilizada juntamente com CSS, para aplicarmos estilo à nossa página, e JavaScript para a lógica e funcionamento do site. </p>
+    <small> <a href="#inicio">Voltar ao topo</a></small>
 
-    <h2>Ponto 2</h2>
-    <small> <a href="#inicio">Voltar</a></small>
-    <p>texto</p>
+    <h2 id="topic2">História do HTML</h2>
+    <p>A história do <abbr title="HyperText Markup Language"><mark>HTML</mark></abbr> remonta aos primórdios da web. Foi criado por Tim Berners-Lee na década de 1990 como parte do projeto da World Wide Web. Desde então, passou por várias versões e evoluções.</p>
+    <small> <a href="#inicio">Voltar ao topo</a></small>
 
-    <h2>Ponto 3</h2>
-    <small> <a href="#inicio">Voltar</a></small>
-    <p>texto</p>
+    <h2 id="topic3">Comunicação Client X Server</h2>
+    <p>A comunicação entre cliente e servidor é fundamental para o funcionamento da web. O <abbr title="HyperText Markup Language"><mark>HTML</mark></abbr> é a linguagem usada pelo cliente para solicitar e exibir conteúdo web, enquanto o servidor fornece esse conteúdo em resposta às solicitações do cliente.</p>
+    <img src="C:\Users\manus\OneDrive\Área de Trabalho\DIO\Project 1\img\serverclient.png" alt="Comunicação Cliente x Servidor" />
+    <p> Na imagem acima podemos observar de modo mais claro, como ocorre a comunicação <i><strong>client-server</strong></i>. Os Clients são compostos pelos diversos dispositivos existentes que possuem acesso a internet (desktops, smartphones, notebooks, tablets, dentre outros), já os server são máquinas de grande porte que tem como função hospedar um site ou aplicação.</p>
+    <p>Quando um usuário (<i>client</i>) acessa um site, o navegador faz uma solicitação ao servidor(<i>servers</i>), que por sua vez, envia uma resposta ao navegador, que é exibida ao usuário.</p>
+    <small> <a href="#inicio">Voltar ao topo</a></small>
 
+    <h2 id="topic4">Introdução ao HTML</h2>
+    <p>Para iniciarmos com <abbr title="HyperText Markup Language"><mark>HTML</mark></abbr> iremos criar páginas web simples, definindo a estrutura do documento, adicionando texto e elementos como imagens e links, utilizando tags.</p>
+    <small> <a href="#inicio">Voltar ao topo</a></small>
+
+    <h3 id="topic5">Principais Tags</h3>
+    <p>As tags são elementos fundamentais do <abbr title="HyperText Markup Language"><mark>HTML</mark></abbr>. Aqui estão algumas tags utilizadas:</p>
+    <ul>
+        <li><code>&lt;h1&gt; até &lt;h6&gt;</code> - Títulos de diferentes níveis. <br/> Exemplo: 
+            <h1>Título 1</h1>
+            <h2>Título 2</h2>
+            <h3>Título 3</h3>
+            <h4>Título 4</h4>
+            <h5>Título 5</h5>
+            <h6>Título 6</h6>
+        </li>
+        <li><code>&lt;p&gt;</code> - Parágrafo. <br/> Exemplo: 
+            <p>Isso é um parágrafo.</p>
+        </li>
+        <br>
+        <li><code>&lt;mark&gt;</code> - Texto destacado. <br/> Exemplo: Isso é um texto <mark>destacado</mark>.</li>
+        <br>
+        <li><code>&lt;small&gt;</code> - Texto pequeno. <br/> Exemplo: <small>Texto pequeno</small>.</li>
+        <br>
+        <li><code>&lt;i&gt;</code> - Texto em itálico. <br/> Exemplo: <i>Texto em itálico</i>.</li>
+        <br>
+        <li><code>&lt;u&gt;</code> - Texto sublinhado. <br/> Exemplo: <u>Texto sublinhado</u>.</li>
+        <br>
+        <li><code>&lt;strong&gt;</code> - Texto forte ou enfatizado. <br/> Exemplo: <strong>Texto enfatizado</strong>.</li>
+        <br>
+        <li><code>&lt;ol&gt;</code> - Lista ordenada (numerada).</li>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+        <br>
+        <li><code>&lt;ul&gt;</code> - Lista não ordenada (com marcadores).</li>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+        <br>
+        <li><code>&lt;li&gt;</code> - Item de lista. <br/> Exemplo:</li>
+        <br>
+        <li><code>&lt;a&gt;</code> - Hiperlink. <br/> Exemplo: <a href="https://www.example.com"><u>Link de exemplo</u></a>.
+        </li>
+        <br>
+        <li><code>&lt;hr&gt;</code> - Linha horizontal.</li>
+        <br>
+        <li><code>&lt;sub&gt;</code> - Texto subscrito. <br/> Exemplo: H<sub>2</sub>O.</li>
+        <br>
+        <li><code>&lt;sup&gt;</code> - Texto sobrescrito. <br/> Exemplo: E = mc<sup>2</sup>.</li>
+        <br>
+        <li><code>&lt;blockquote&gt;</code> - Citação em bloco. <br/> Exemplo:</li>
+        <blockquote>
+            "Isso é uma citação em bloco."
+        </blockquote>
+        <li><code>&lt;font&gt;</code> - Definir fonte e cor do texto.</li>
+        <br>
+        <li><code>&lt;del&gt;</code> - Texto deletado. <br/> Exemplo: <del>Texto deletado</del>.</li>
+        <br>
+        <li><code>&lt;abbr&gt;</code> - Abreviação. <br/> Exemplo: <abbr
+                title="HyperText Markup Language"><mark>HTML</mark></abbr>.</li>
+    </ul>
+    <small> <a href="#inicio">Voltar ao topo</a></small>
+    <hr>
     <footer>
         <p>Desenvolvido por: Emanuelle Silvia</p>
 </body>
